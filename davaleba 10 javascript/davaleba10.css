@@ -1,0 +1,124 @@
+.main-button {
+    position: relative;
+    top: 600px;
+    
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    transition: all .4s;
+    border-radius: 10px;
+    
+}
+
+
+
+.main-button:hover {
+    color: yellow;
+    background-color: rgba(3, 195, 189, 0.273);
+    scroll-padding-inline: 50px;
+    padding-block:0px ;
+}
+
+
+
+
+
+.n2-div {
+    width: 30%;
+    height: 90vh;
+    background-color: rgb(176, 176, 176);
+    transition: all .5s;
+    border-radius: 30px;
+    position: absolute;
+    left: 950px;
+    flex: 50%;
+    
+}
+
+
+@media (max-width : 800px) {
+.main-div {
+    flex-direction: row;
+}
+}
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.cancel {
+     padding: 5px; 
+    width: 80px;
+    border-radius: 10px;
+
+    transition: all .4s;
+    
+    
+    
+}
+
+
+
+.cancel:hover {
+    color: red;
+    
+    
+}
+
+
+.moni-div {
+    width: 343.05px;
+height: 334.52px;
+
+border-bottom-right-radius:25px ;
+border-bottom-left-radius:25px ;
+border-top-right-radius:25px ;
+border-top-left-radius:25px ;
+background-color: white;
+
+}
+
+
+
+.april {
+    padding-right: 260px;
+    position: relative;
+    bottom: -7px;
+    
+}
+
+
+.mini-div-p {
+    color: rgba(0, 0, 0, 1);
+    ;
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+position: relative;
+bottom: 62px;
+left: 80px;
+
+}
+
+
+.mini-div-n2 {
+    
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+position: relative;
+left: 0px;
+color: rgba(106, 106, 106, 1);
+bottom: 70px;
+}
+
+
+
+
